@@ -9,7 +9,6 @@ Created on Fri Dec  9 14:34:25 2022
 
 import pandas as pd
 import numpy as np
-import statsmodels.api as sm
 import dash
 from dash import dcc, dash_table
 from dash import html
