@@ -9,15 +9,10 @@ Created on Fri Dec  9 14:34:25 2022
 import re
 import requests
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
-import scipy.stats as stats
-from matplotlib.pyplot import figure
-import glob
 import statsmodels.api as sm
 import datetime
 from PIL import Image
-from collections import Counter
 import dash
 from dash import dcc, dash_table
 from dash import html
