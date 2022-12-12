@@ -24,9 +24,8 @@ stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=stylesheet)
 server = app.server
 
-#df = pd.read_csv('/Users/rennie/Desktop/Bentley/2022 Fall/MA-705 HB1/Individual Project/Target_Cleaned.csv')
+df = pd.read_csv('/Users/rennie/Desktop/Bentley/2022 Fall/MA-705 HB1/Individual Project/Target_Cleaned.csv')
 
-df = pd.read_csv('/refs/heads/main/Target_Cleaned.csv')
 df = df.drop(columns=['Unnamed: 0'])
 
 #create a column for distigishing different levels of ratings total
