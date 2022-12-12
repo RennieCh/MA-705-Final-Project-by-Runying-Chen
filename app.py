@@ -6,13 +6,10 @@ Created on Fri Dec  9 14:34:25 2022
 @author: rennie
 """
 
-import re
-import requests
+
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
-import datetime
-from PIL import Image
 import dash
 from dash import dcc, dash_table
 from dash import html
