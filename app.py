@@ -21,7 +21,9 @@ stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=stylesheet)
 server = app.server
 
-df = pd.read_csv("https://raw.githubusercontent.com/RennieCh/MA-705-Final-Project-by-Runying-Chen/main/Target_Cleaned.csv")
+url = "https://raw.githubusercontent.com/RennieCh/MA-705-Final-Project-by-Runying-Chen/main/Target_Cleaned.csv"
+
+df = pd.read_csv(url)
 
 df = df.drop(columns=['Unnamed: 0'])
 
